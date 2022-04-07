@@ -3,10 +3,9 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Wait1",
+				"name": "pl-Wait1",
 				"type": "Wait",
 				"dependsOn": [],
-				"userProperties": [],
 				"typeProperties": {
 					"waitTimeInSeconds": 1
 				}
