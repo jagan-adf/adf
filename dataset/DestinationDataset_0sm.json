@@ -1,0 +1,47 @@
+{
+	"name": "DestinationDataset_0sm",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "CITY",
+				"type": "char",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "STATE",
+				"type": "char",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "LAT_N",
+				"type": "real",
+				"precision": 24,
+				"scale": 0
+			},
+			{
+				"name": "LONG_W",
+				"type": "real",
+				"precision": 24,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "STATION"
+		}
+	}
+}
